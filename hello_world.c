@@ -1,9 +1,13 @@
 #include <stdio.h>
+#include "MQTTClient.h"
+#include "MQTTClientPersistence.h"
 
 int tmp=0;
 
 int main()
 {
+	MQTTAsync_nameValue* infos = MQTTAsync_getVersionInfo();
+
 	while(tmp < 200)
 	{
 		tmp++;
