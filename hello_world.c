@@ -6,7 +6,7 @@ int tmp=0;
 
 int main()
 {
-	MQTTAsync_nameValue* infos = MQTTAsync_getVersionInfo();
+	//MQTTAsync_nameValue* infos = MQTTAsync_getVersionInfo();
 
 	while(tmp < 200)
 	{
